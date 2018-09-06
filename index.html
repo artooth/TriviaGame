@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Composer Trivia</title>
+        <!--Reset CSS-->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+        <!--Bootstrap CSS-->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <!---Local CSS-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <!--JQuery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    </head>
+
+    <body>
+       
+        <header>
+            <h1>Name the Famous Composer!</h1>
+        </header>
+
+        <div class="container">
+            <button type="startGame" class="btn btn-light btn-lg"> PLAY </button>
+            <div id="startTimer"><h2>Time Remaining: </h2></div>
+            <div id="displayQuestions"></div>
+            <div class="btn btn-default btn-lg submitAnswer" href="#" role="button">Submit</div>
+            <div id="checkAnswer"></div>
+            <div id="yourScore"> <h2>Your Score: </h2> 
+                <div id="correctAnswers"><h3>Correct: </h3></div>
+                <div id="incorrectAnswers"><h3>Incorrect: </h3></div>
+            </div>
+        </div>
+
+        <!--Local JavaScript-->
+        <script src="./assets/javascript/app.js"></script>
+
+    </body>
+
+</html>
